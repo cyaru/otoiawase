@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>うどん</title>
+<style type="text/css">
+  h1{font-size: 1.5em; ; border-reft: 6px solid skyblue; padding-left: 10px;}
+     h2{font-size: 1.2em; border-left: 6px solid skyblue; padding-left:10px; }
+</style>
+</head>
+<body>
+
+<form method="post" action="mailto:piroginmybird@gmail.com?subject=アンケート">
+  <p>
+    <h1>うどんアンケート</h1>
+  </p>
+  <p>
+    <h2>うどんのことをどれだけ好きですか？</h2>
+  </p>
+<input type="radio" name="wish" value="like">大好き<br>
+<input type="radio" name="wish" value="little">好き<br>
+<input type="radio" name="wish" value="less">あんまり好きではない<br>
+<input type="radio" name="wish" value="no">嫌い
+
+    <p><h2>好きなうどん料理</h2></p>
+<p  id="udonn">
+<label><input type="checkbox" name="udonn" value="zaruudonn">ざるうどん </label>
+<label><input type="checkbox" name="udonn" value="tanukiudonn">たぬきうどん</label>
+<label><input type="checkbox" name="udonn" value="tennpuraudonn">てんぷらうどん</label>
+<label><input type="checkbox" name="udonn" value="nikuudonn">肉うどん</label>
+</p>
+<p>
+<input type="submit" value="送信">
+<input type="reset" value="取消">
+</p>
+</form>
+</body>
+</html>
